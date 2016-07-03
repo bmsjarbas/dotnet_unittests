@@ -15,5 +15,4 @@ public class UserController : ApiController
             return NotFound();
         return Ok(user); 
     }
-
 }

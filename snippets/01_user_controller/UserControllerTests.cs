@@ -29,11 +29,5 @@ public class UserControllerTests
         var httpActionResult = userController.findByID(10);
         Assert.InstanceOf(httpActionResult, typeof(NotFoundResult));
     }
-
-    [Test]
-    public void WhenUserExistsShouldReturnAValidUser()
-    {
-
-    }
-        
+       
 }
